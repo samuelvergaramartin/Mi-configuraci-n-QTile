@@ -1,2 +1,2 @@
 # Mi-configuraci-n-QTile
-Mi Archivo de configuracion de mi QTile de mi ArchLinux
+Mi configuración de QTile en mi ArchLinux
