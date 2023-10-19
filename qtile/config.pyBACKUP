@@ -109,7 +109,7 @@ keys = [
     Key([mod], "m", lazy.spawn("rofi -show drun"), desc="Abrir menu"),
    
     #lanzar firefox
-    Key([mod], "f", lazy.spawn("firefox https://google.es"), desc="Lanzar firefox"),
+    Key([mod], "f", lazy.spawn("firefox https://search.tosdr.org"), desc="Lanzar firefox"),
 
    #teclas para lanzar discord
    Key([mod], "d", lazy.spawn("discord-canary"), desc="Lanzar Discord"),
@@ -128,7 +128,7 @@ keys = [
 
    #teclas para realizar captura de pantalla
    Key([mod], "s", lazy.spawn("scrot"), desc="Capturas la pantalla completa"),
-   Key([mod, "shift"], "s", lazy.spawn("scrot -s"), desc="Capturar un área de la pantalla"),
+   Key([mod, "shift"], "s", lazy.spawn("flameshot"), desc="Capturar un área de la pantalla"),
 
    #teclas para abrir spotify
    Key([mod, "shift"], "m", lazy.spawn("spotify"), desc="Lanzar Spotify"),
