@@ -1,0 +1,8 @@
+tamano_barra=24
+tamano_fuente=16
+tamano_grupo_areas_trabajo=20
+tamano_fuente_area_actividad_actual=20
+tamano_iconos=20
+tito_tamano_barra=30
+tito_tamano_iconos=26
+tito_tamano_fuente=16

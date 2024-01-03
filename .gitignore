@@ -1,0 +1,9 @@
+/qtile/.vscode
+/qtile/__pycache__
+/qtile/src/__pycache__
+/qtile/src/build/__pycache__
+/qtile/src/modules/dictionaries/__pycache__
+/qtile/src/modules/functions/__pycache__
+/qtile/src/modules/hooks/__pycache__
+/qtile/src/modules/objects/__pycache__
+/qtile/src/modules/variables/__pycache__
