@@ -15,3 +15,10 @@ tito_color_grupo1="#ff7f00" #naranja
 tito_color_grupo2="#d600f7" #rosa oscuro
 tito_color_grupo3="#007bff" #azul
 tito_color_grupo4="#c60000" #rojo
+
+#Mis colores aparte
+
+red_light="#fb5d5d"
+purple="#c65dfb"
+orange_light="#ff9754"
+yellow_light="#fff754"
