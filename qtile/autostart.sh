@@ -19,3 +19,7 @@ nitrogen --restore &
 #configuración transparencia para las terminales
 
 picom &
+
+xset s off
+xset -dpms
+lxpolkit & 

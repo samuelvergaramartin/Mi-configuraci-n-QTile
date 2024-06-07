@@ -42,9 +42,6 @@ keys = [
     #teclas para lanzar rofi
     Key([mod], "m", lazy.spawn("rofi -show drun"), desc="Abrir menu"),
 
-    #lanzar firefox
-    Key([mod], "f", lazy.spawn("firefox https://search.tosdr.org"), desc="Lanzar firefox"),
-
 #teclas para lanzar discord
 Key([mod], "d", lazy.spawn("discord-canary"), desc="Lanzar Discord"),
 
@@ -52,8 +49,8 @@ Key([mod], "d", lazy.spawn("discord-canary"), desc="Lanzar Discord"),
 Key([mod], "v", lazy.spawn("code"), desc="Lanzar Visual Studio Code"),
 
 #teclas para lanzar NetCat-Browser
-Key([mod, "shift"], "n", lazy.spawn("/home/sam170703dev/Aplicaciones/NetCat-Browser/NetCat-Browser-0.0.3.AppImage"), desc="Lanzar NetCat Browser v.0.0.3 Beta"),
-Key([mod], "p", lazy.spawn("firefox https://mail.proton.me/u/4/inbox"), desc="Abrir ProtonMail"),
+Key([mod, "shift"], "n", lazy.spawn("NetCat-Browser"), desc="Lanzar NetCat Browser v0.4 Beta"),
+Key([mod], "p", lazy.spawn("brave https://mail.proton.me/u/4/inbox"), desc="Abrir ProtonMail"),
 
 #teclas para el control del volumen
 Key([], "XF86AudioLowerVolume", lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ -5%"), desc="Bajar el volumen un 5%"),
@@ -69,29 +66,24 @@ Key([mod], "s", lazy.spawn("scrot"), desc="Capturas la pantalla completa"),
 Key([mod, "shift"], "s", lazy.spawn("flameshot"), desc="Capturar un área de la pantalla"),
 
 #teclas para abrir spotify
-Key([mod, "shift"], "m", lazy.spawn("spotify"), desc="Lanzar Spotify"),
+Key([mod, "shift"], "m", lazy.spawn("spotube"), desc="Lanzar Spotube"),
 
-#teclas para ver en directo a Strato34 en Twitch
-Key([mod, "shift"], "t", lazy.spawn("firefox https://www.twitch.tv/strato344"), desc="Lanzar directamente el canal de Twitch de Strato34 en Firefox"),
 
-    #Teclas para lanzar minecraft
-    Key([mod, "shift"], "l", lazy.spawn("minecraft-launcher"), desc="Lanzar minecraft-launcher"),
-    #Key([mod, "shift"], "l", lazy.spawn("/home/sam170703dev/Escritorio/Battly-Launcher/Battly-Launcher-linux-x86_64.AppImage"), desc="Lanzar Battly Launcher"),
     #teclas para ver en directo a Lordzas en Twitch
-    Key([mod], "l", lazy.spawn("firefox https://twitch.tv/lordzas0110"), desc="Lanzar directamente el canal de Twitch de Lordzas en Firefox"),
-    
+    #Key([mod], "l", lazy.spawn("brave https://twitch.tv/lordzas0110"), desc="Lanzar directamente el canal de Twitch de Lordzas en Firefox"),
+    Key([mod], "l", lazy.spawn("LyriaDCE"), desc="Lanzar LyriaDCE"),
     #teclas para lanzar Youtube en el navegador
-    Key([mod], "y", lazy.spawn("firefox https://youtube.com"), desc="Lanzar Youtube"),
+    Key([mod], "y", lazy.spawn("brave https://youtube.com"), desc="Lanzar Youtube"),
 
     #teclas para lanzar Youtube Music
-    Key([mod, "shift"], "y", lazy.spawn("firefox https://music.youtube.com"), desc="Lanzar Youtube Music"),
+    Key([mod, "shift"], "y", lazy.spawn("brave https://music.youtube.com"), desc="Lanzar Youtube Music"),
 
     #teclas para lanzar Twitch
-    Key([mod], "t", lazy.spawn("firefox https://twitch.tv"), desc="Lanzar Twitch"),
+    Key([mod], "t", lazy.spawn("brave https://twitch.tv"), desc="Lanzar Twitch"),
 
     #teclas para lanzar Discord Developer Portal
 
-    Key([mod, "shift"], "d", lazy.spawn("firefox https://discord.com/developers/docs/intro"), desc="Lanzar Discord Developer Portal"),
+    Key([mod, "shift"], "d", lazy.spawn("brave https://discord.com/developers/docs/intro"), desc="Lanzar Discord Developer Portal"),
 
     #teclas para abrir el visor de imágenes
     Key([mod], "i", lazy.spawn("geeqie"), desc="Lanzar el visor de imágenes"),
@@ -103,6 +95,13 @@ Key([mod, "shift"], "t", lazy.spawn("firefox https://www.twitch.tv/strato344"), 
     #
     Key([mod, "shift"], "v", lazy.spawn("pavucontrol"), desc="Abrir el mezclador de volumen"),
 
+    #teclas para lanzar Battly Launcher
+    Key([mod, "shift"], "l", lazy.spawn("Battly-Launcher"), desc="Lanzar Battly Launcher"),
+
+    #teclas para lanzar el kit de programación del instituto
+    Key([mod], "p", lazy.spawn("bash /home/sam170703dev/Scripts/'Modulo Programación'/programacionkit.sh"), desc="Lanzar kit de programación"),
+
+    Key([mod], "b", lazy.spawn("brave"), desc="Lanzar el navegador web de brave"),
     #teclas para lanzar Premid
     #Key([mod], "p", lazy.spawn("bash /home/sam170703dev/launchers/premid.sh"), desc="Lanzar Premid"),
     # Toggle between different layouts as defined below
