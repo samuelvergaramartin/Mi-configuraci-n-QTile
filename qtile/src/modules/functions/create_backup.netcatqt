@@ -1,0 +1,7 @@
+#!/bin/netcatqt
+
+mkdir -p ~/Backups/NetCatQTile
+rm -rvf ~/Backups/NetCatQTile/*
+cp -rvf ~/.config/qtile/* ~/Backups/NetCatQTile
+
+notify-send -u normal "NetCatQTile: ✅ Backup Realizada correctamente"

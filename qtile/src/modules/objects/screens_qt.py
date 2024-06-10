@@ -2,7 +2,7 @@ from libqtile.config import Screen
 from libqtile import bar, widget
 from src.modules.variables.colors import *
 from src.modules.variables.sizes import *
-from src.modules.variables.config_extra import dispositivo_red
+from src.modules.variables.config_extra import adaptador_de_red
 from src.modules.themes.dark_grey import *
 from src.modules.variables.fonts import fuente_predeterminada
 
@@ -82,7 +82,7 @@ screens = [
                 ),
                 powerline(orange_light,yellow_light),
                 icon(fg=grey,bg=orange_light, text=' '),  # Icon: nf-fa-feed
-                widget.Net(**base(fg=grey,bg=orange_light), interface=dispositivo_red),
+                widget.Net(**base(fg=grey,bg=orange_light), interface=adaptador_de_red),
                 powerline(red_light, orange_light),
                 widget.CurrentLayoutIcon(**base(fg=grey,bg=red_light), scale=0.65),
                 widget.CurrentLayout(**base(fg=grey,bg=red_light), padding=5),
