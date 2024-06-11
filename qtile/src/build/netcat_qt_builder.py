@@ -10,6 +10,7 @@ from src.modules.objects.mouse_config import mouse
 from src.modules.objects.float_rules_config import float_rules
 
 from src.modules.variables.config_extra import *
+from src.modules.objects.keyboard import windows, shift
 
 def netcat_builder():
     for i, group in enumerate(groups):
@@ -17,12 +18,12 @@ def netcat_builder():
         keys.extend(
             [
                 Key(
-                    [mod],
+                    [windows],
                     numeroEscritorio,
                     lazy.group[group.name].toscreen(),
                     desc="Switch to group {}".format(group.name),
                 ),
-                Key([mod, "shift"], numeroEscritorio, lazy.window.togroup(group.name, switch_group=False),
+                Key([windows, shift], numeroEscritorio, lazy.window.togroup(group.name, switch_group=False),
                      desc="move focused window to group {}".format(group.name)),
             ]
         )
